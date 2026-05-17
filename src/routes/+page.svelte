@@ -80,7 +80,13 @@
 				<div class="projects-grid">
 					{#each projects as project}
 						<article class="project-card">
-							<h3 class="project-title">{project.title}</h3>
+							<h3 class="project-title">
+								{#if project.url}
+									<a href={project.url} target="_blank" rel="noopener noreferrer">{project.title} ↗</a>
+								{:else}
+									{project.title}
+								{/if}
+							</h3>
 							<p class="project-desc">{project.description}</p>
 							<ul class="tech-tags">
 								{#each project.tech as tag}
@@ -323,6 +329,16 @@
 		font-weight: 600;
 		margin-bottom: 0.75rem;
 		letter-spacing: -0.01em;
+	}
+
+	.project-title a {
+		color: inherit;
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+
+	.project-title a:hover {
+		color: #2563eb;
 	}
 
 	.project-desc {
