@@ -5,22 +5,8 @@
 			description:
 				'A PWA for tracking a Swedish Avanza stock portfolio with EMA-based BUY/SELL/HOLD signals. Deployed on Cloudflare Pages with a proxy Worker for Yahoo Finance data.',
 			tech: ['SvelteKit', 'Cloudflare Workers', 'PWA', 'Yahoo Finance API'],
-			url: '#'
+			url: 'https://stockpulse.rolsson.com'
 		},
-		{
-			title: 'Project Two',
-			description:
-				'A brief description of what this project does and the problem it solves. Replace with your own project details.',
-			tech: ['React', 'Node.js', 'PostgreSQL'],
-			url: '#'
-		},
-		{
-			title: 'Project Three',
-			description:
-				'A brief description of what this project does and the problem it solves. Replace with your own project details.',
-			tech: ['Vue', 'Python', 'AWS'],
-			url: '#'
-		}
 	];
 </script>
 
@@ -43,11 +29,11 @@
 	<main>
 		<section class="hero">
 			<div class="container">
-				<p class="hero-eyebrow">Full Stack Developer</p>
-				<h1 class="hero-heading">Building software that's fast, usable, and built to last.</h1>
+				<p class="hero-eyebrow">The backyard of a Full Stack Developer</p>
+				<h1 class="hero-heading">This is my playground. </h1>
 				<p class="hero-sub">
-					I help companies ship high-quality products — from architecture and APIs to polished,
-					accessible UIs.
+					As an software consultant I sometimes want to try out some technology or have an idea 
+					for something useful in my life. These projects will end up here, if useful enough :)
 				</p>
 				<a href="#contact" class="btn">Get in touch →</a>
 			</div>
@@ -58,7 +44,7 @@
 				<div class="about-text">
 					<h2 class="section-heading">About</h2>
 					<p>
-						I'm a full-stack developer with a sharp focus on three things: usability, speed, and
+						I'm a full-stack developer located in Sweden, with a sharp focus on three things: usability, speed, and
 						quality. I care deeply about the end user experience — every interaction, every load time,
 						every edge case.
 					</p>
